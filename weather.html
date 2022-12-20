@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Whather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+    <h1> WEATHER APP </h1>
+    <form id="search">
+        <input type="search" placeholder="Enter City Name" id="search_input" required autocomplete="off" />
+
+        <br>
+        <button id="search_button">Search</button>
+    </form>
+
+
+    <main id="container">
+        <div id="city">
+        </div>
+        <div>
+            <li><img id="cloud_img" src="cloudy.png"></li>
+            <br>
+            <li> Temperature: <br><span id="temp"></span> &#176c</li>
+            <br>
+            <li> Humidity: <br><span id="humidity"></span> %</li>
+            <br>
+            <li> Wind Speed: <br><span id="wind_speed"></span> Km/hr</li>
+        </div>
+
+    </main>
+
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
